@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import {actionCreators} from './services/actions/actioncreators';
+import {actionCreators} from './redux/actions/actioncreators';
 
 const App = () => {
   const amount=useSelector(state=>state.result);
